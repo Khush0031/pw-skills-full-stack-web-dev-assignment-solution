@@ -6,7 +6,7 @@
 ### Question 1:-  
 - Write a simple program in HTML that display the heading"**HTML defines the content and structure of your website**"on the web browser?.
 - Solution :
-  ![Screenshot 2023-09-20 095421](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/e4d21344-bcde-4361-882d-30a50214b00a)
+  ![Screenshot 2023-09-20 143922](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/62155d0d-fed9-45eb-8e07-7fc58a34b086)
 ### Question 2:-  
 - Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document?
     - The purpose behind the comments is to provide better understandability of the code
@@ -15,7 +15,7 @@
     - Comments are basically for humans, you write comments for your future self or for other developers who
       might work on the same codebase.
 - Solution :  
-  ![Screenshot 2023-09-20 101155](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/9a55e203-5c26-4775-bacc-952123bc9489)
+  ![Screenshot 2023-09-20 101155](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/07dae2c0-6b73-44cb-a0fa-662aadf2c507) 
 ### Question 3:-  
 - Write an HTML program that include a heading, a paragraph of text, a horizontal line, and a line break.
 Arrange these elements to create a simple web page layout?
