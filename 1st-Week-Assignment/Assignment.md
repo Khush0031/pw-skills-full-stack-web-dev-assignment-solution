@@ -23,7 +23,13 @@ Arrange these elements to create a simple web page layout?
   ![Screenshot 2023-09-20 102013](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/db83a221-0b80-4d25-86ff-8ad43b8a4eef)
   
 ### Question 4:-  
-- Write a short note on Tag and Element with an example?  
+- Tag and Element with an example?
+  
+  ![Screenshot 2023-09-20 123735](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/8f62414a-9f7d-4803-b80f-48dd38a1a482)
+
 ### Question 5:-  
 - What is the DOCTYPE Declaration in HTML?
+    - solution :
+        - All HTML documents must start with a <!DOCTYPE> declaration.
+        -  The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
 
