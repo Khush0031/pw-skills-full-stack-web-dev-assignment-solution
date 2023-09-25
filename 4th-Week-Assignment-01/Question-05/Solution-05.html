@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up and Sign In Form</title>
+</head>
+<body style="display: flex; justify-content:space-evenly; align-items: center;">
+    <h1>Sign Up</h1>
+    <form>
+        <label for="signup-firstname">First Name:</label>
+        <input type="text" id="signup-firstname" name="signup-firstname" required minlength="3"><br>
+
+        <label for="signup-lastname">Last Name:</label>
+        <input type="text" id="signup-lastname" name="signup-lastname" required minlength="3"><br>
+
+        <label for="signup-email">Email:</label>
+        <input type="email" id="signup-email" name="signup-email" required><br>
+
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="signup-password" required minlength="8"><br>
+
+        <label for="signup-confirm-password">Confirm Password:</label>
+        <input type="password" id="signup-confirm-password" name="signup-confirm-password" required minlength="8"><br>
+
+        <label for="signup-age">Age:</label>
+        <input type="number" id="signup-age" name="signup-age" required min="0" max="150"><br>
+
+        <label for="signup-gender">Gender:</label>
+        <select id="signup-gender" name="signup-gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <input type="checkbox" id="signup-terms" name="signup-terms" required>
+        <label for="signup-terms">I agree to the terms and conditions</label><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <h1>Sign In</h1>
+    <form>
+        <label for="signin-email">Email:</label>
+        <input type="email" id="signin-email" name="signin-email" required><br>
+
+        <label for="signin-password">Password:</label>
+        <input type="password" id="signin-password" name="signin-password" required><br>
+
+        <input type="submit" value="Sign In">
+    </form>
+</body>
+</html>
