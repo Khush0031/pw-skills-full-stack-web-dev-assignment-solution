@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>order of precedence in css/title>
+    <style>
+      div {
+        color: blue; /* Internal CSS */
+      }
+    </style>
+
+    <link rel="stylesheet" href="solution-01-2.css" />
+  </head>
+  <body>
+    <div style="color: red">
+      This text is red (inline CSS), but it would be blue with internal CSS, and
+      green with external CSS.
+    </div>
+  </body>
+</html>
