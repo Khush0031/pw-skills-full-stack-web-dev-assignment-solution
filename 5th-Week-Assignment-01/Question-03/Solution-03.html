@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled Form</title>
+    <style>
+      /* Custom color palette */
+      :root {
+        --primary-color: #3498db;
+        --secondary-color: #e74c3c;
+        --input-background: #f2f2f2;
+      }
+
+      /* Form container styling */
+      .form-container {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: var(--input-background);
+        border: 1px solid black;
+        border-radius: 10px;
+        opacity: 0.9; /* Applying opacity */
+      }
+
+      /* Input field styling */
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px; /* Adjust padding as needed */
+        margin: 5px 0; /* Adjust margin as needed */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+      }
+
+      /* Submit button styling */
+      input[type="submit"] {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      /* Input label styling */
+      label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Form Styling</h2>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
