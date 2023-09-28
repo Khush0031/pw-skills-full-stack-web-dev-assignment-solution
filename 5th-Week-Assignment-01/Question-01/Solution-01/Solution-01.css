@@ -1,0 +1,12 @@
+.box-external {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(88, 84, 139);
+    margin: 10px;
+}
+#box-id {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(215, 119, 178);
+    margin: 10px;
+}
