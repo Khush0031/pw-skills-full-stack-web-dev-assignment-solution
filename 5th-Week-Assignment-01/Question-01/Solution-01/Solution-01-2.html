@@ -1,3 +1,8 @@
+<!-- When you target the same elements with inline, internal, and external CSS, the styles are applied in a specific order of precedence. The order of precedence is inline CSS (highest priority), followed by internal CSS, and then external CSS (lowest priority).  
+1. Inline CSS (Highest Priority): Inline CSS is applied directly to individual HTML elements using the style attribute. It has the highest priority, meaning it overrides styles applied through other methods.
+2. Internal CSS: Internal CSS is defined within the <style> tag in the HTML document's <head>. It applies styles to elements using selectors. If there is a conflict with inline CSS, internal CSS will override external CSS but will be overridden by inline CSS.
+3. External CSS (Lowest Priority): External CSS is stored in a separate CSS file and linked to the HTML document using the <link> element. It applies styles to elements using selectors. External CSS has the lowest priority and will be overridden by both inline and internal CSS.-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
