@@ -1,2 +1,2 @@
 # Solution-01-2 Image.
-![Screenshot 2023-09-28 122716](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/43f1f7b6-82d0-41e1-9a24-5ca48946a017)
+![Screenshot 2023-09-28 124300](https://github.com/Khush0031/pw-skills-full-stack-web-dev-assignment-solution/assets/121889921/bd09def0-f51d-4235-8db8-d10370699beb)
