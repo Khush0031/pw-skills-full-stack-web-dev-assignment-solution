@@ -1,0 +1,9 @@
+/* <!-- In "styles.css" --> */
+div {
+    /* External CSS */
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    color: green;
+    margin: 10px;
+}
