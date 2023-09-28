@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- Internal CSS (within the <style> tag) -->
+    <style>
+        /* Internal CSS comment */
+        .box-internal {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- External CSS (linked from an external file) -->
+    <link rel="stylesheet" href="solution-01.css">
+</head>
+<body>
+    <!-- Inline CSS (applied directly to the <div> element) -->
+    <div style="width: 200px; height: 100px; background-color: lightgreen; margin: 10px;">
+        This div uses <strong>inline CSS</strong>.
+    </div>
+
+    <!-- Internal CSS (applied using a class) -->
+    <div class="box-internal">
+        This div uses <strong>internal CSS</strong>.
+    </div>
+
+    <!-- External CSS (applied using a class) -->
+    <div class="box-external">
+        This div uses <strong>external CSS</strong> with a class.
+    </div>
+
+    <!-- External CSS (applied using an ID) -->
+    <div id="box-id">
+        This div uses <strong>external CSS</strong> with an ID.
+    </div>
+</body>
+</html>
