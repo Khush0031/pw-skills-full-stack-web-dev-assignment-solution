@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM convention Styling</title>
+    <style>
+        /* BEM naming convention */
+        /* Block: paragraph */
+        /* Element: title, content */
+        /* Modifier: important, note */
+
+        /* Base paragraph style */
+        .paragraph {
+            font-size: 16px;
+            line-height: 1.4;
+            margin-bottom: 16px;
+        }
+
+        /* Element: title */
+        .paragraph__title {
+            font-weight: bold;
+            color: #3498db; /* Blue color for titles */
+        }
+
+        /* Element: content */
+        .paragraph__content {
+            color: #333; /* Dark gray color for content */
+        }
+
+        /* Modifier: important */
+        .paragraph--important .paragraph__title {
+            color: #e74c3c; /* Red color for important titles */
+        }
+
+        /* Modifier: note */
+        .paragraph--note .paragraph__content {
+            font-style: italic;
+            color: #27ae60; /* Green color for note content */
+        }
+    </style>
+</head>
+<body>
+    <p class="paragraph">
+        <span class="paragraph__title">Introduction:</span>
+        <span class="paragraph__content">This is a regular paragraph.</span>
+    </p>
+
+    <p class="paragraph paragraph--important">
+        <span class="paragraph__title">Important Note:</span>
+        <span class="paragraph__content">This paragraph is important.</span>
+    </p>
+
+    <p class="paragraph paragraph--note">
+        <span class="paragraph__title">A Note:</span>
+        <span class="paragraph__content">This paragraph is a note.</span>
+    </p>
+
+    <p class="paragraph">
+        <span class="paragraph__title">Conclusion:</span>
+        <span class="paragraph__content">This is the final paragraph.</span>
+    </p>
+</body>
+</html>
