@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar with different border style</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .nav-container {
+        background-color: rgb(112, 157, 241);
+      }
+      .my-nav ul {
+        display: flex;
+        padding-left: 24px;
+      }
+      .my-nav a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        transition: color 0.3s;
+      }
+      .my-nav a:hover {
+        color: #434242;
+      }
+
+      /* Different border styles for each navigation item */
+      .my-nav a:nth-child(1) {
+        border: 2px solid #ff5733; /* border style 1 */
+      }
+
+      .my-nav a:nth-child(2) {
+        border: 2px dashed #ffbd33; /* border style 2 */
+      }
+
+      .my-nav a:nth-child(3) {
+        border: 2px dotted #33ff57; /* border style 3 */
+      }
+
+      .my-nav a:nth-child(4) {
+        border: 2px double #eeff33; /* border style 4 */
+      }
+
+      .my-nav a:nth-child(5) {
+        border: 2px groove #ff33c4; /* border style 5 */
+      }
+
+      /* Change border color on hover */
+      .my-nav a:hover {
+        border-color: #434242;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav-container">
+      <nav class="my-nav">
+        <ul>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+          <a href="#">Login</a>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
