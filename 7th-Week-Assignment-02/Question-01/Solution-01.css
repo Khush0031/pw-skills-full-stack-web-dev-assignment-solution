@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+header{ 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #cccc;
+    border: 1px solid black;
+    padding: 24px;
+}
+.main {
+    padding: 24px;
+}
+.footer {
+    padding: 24px;
+}
+
+@media  only screen and (max-width:600px) {
+    .header {
+        background-color: #0000ff;
+    }
+}
