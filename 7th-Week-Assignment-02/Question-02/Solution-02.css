@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 14px;
+}
+
+.image {
+    flex: 0 0 calc(33.33% - 10px);
+}
+
+.image img {
+    width: 100%;
+}
+
+/* Media query for screens smaller than 800px */
+@media screen and (max-width: 800px) {
+    .image {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+/* Media query for screens smaller than 500px */
+@media screen and (max-width: 500px) {
+    .image {
+        flex: 0 0 100%;
+    }
+}
