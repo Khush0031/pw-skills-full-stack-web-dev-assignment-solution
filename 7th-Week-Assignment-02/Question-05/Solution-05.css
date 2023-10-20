@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    height: 100vh;
+
+}
+
+.flex-item {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Styles for individual boxes */
+.b1 {
+    background-color: rgb(31, 28, 28);
+}
+
+.b2 {
+    background-color: green;
+}
+
+.b3 {
+    background-color: orange;
+}
+
+.b4 {
+    background-color: rgb(31, 28, 28);
+}
+
+/* Media Query for screens with a minimum width of 768px */
+@media screen and (min-width: 768px) {
+    .flex-container {
+        flex-direction: row;
+    }
+
+    .b2,
+    .b3 {
+        flex: 1;
+    }
+}
