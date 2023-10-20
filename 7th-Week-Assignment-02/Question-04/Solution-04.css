@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    padding: 24px;
+    text-align: center;
+    color: white;
+}
+.b1 {
+    background: red;
+}
+.b2 {
+    background-color: green;
+}
+.b3 {
+    background-color: blue;
+}
+.b4 {
+    background-color: brown;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
