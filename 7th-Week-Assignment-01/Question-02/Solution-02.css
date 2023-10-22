@@ -1,0 +1,60 @@
+<!DOCTYPE html>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+}
+
+.container-box {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:100px 100px 100px;
+}
+
+.box {
+    background-color: #f5d2a7;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: xx-large;
+    color: black;
+}
+
+.box-a {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.box-b {
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+.box-c {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box-d {
+    grid-column: 2;
+    grid-row: 2;
+}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container Layout</title>
+    <link rel="stylesheet" href="./Solution-01.css">
+  </head>
+  <body>
+    <div class="container-box">
+      <div class="box box-a">A</div>
+      <div class="box box-b">B</div>
+      <div class="box box-c">C</div>
+      <div class="box box-d">D</div>
+    </div>
+  </body>
+</html>
