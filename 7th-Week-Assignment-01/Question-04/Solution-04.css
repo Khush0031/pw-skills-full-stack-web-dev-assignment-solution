@@ -3,26 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
-    margin: 48px;
-}
-
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 400px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    padding: 40px;
     
 }
 
 .box {
     width: 150px;
     height: 100px;
+    padding: 20px;
     background-color: #3a3a3a;
     color: #ffffff;
     border-radius: 5px;
-    justify-content: center;
     font-size: xx-large;
 }
 
@@ -30,8 +26,8 @@ body {
     background-color: #ccc;
 }
 .box1 {
-    order: 7;
+    order: 1;
 }
 .box2 {
-    order: 8;
+    order: 2;
 }
