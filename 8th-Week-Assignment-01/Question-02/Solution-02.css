@@ -1,0 +1,24 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow {
+    font-size: 100px;
+}
+/* Solution-2nd > A > 1 */
+.nav-list-2  ul li {
+    list-style-type: none;
+}
+
+.nav-list-2  ul li a {
+    text-decoration: none;
+}
+/* Solution-2nd > A > 2 */
+.nav-list-2  ul > li {
+    display: inline;
+}
+/* Solution-2nd > A > 3 */
+.nav-list-2  li + li {
+    margin: 24px;
+}
