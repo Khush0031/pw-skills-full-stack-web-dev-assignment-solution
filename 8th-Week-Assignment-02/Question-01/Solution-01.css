@@ -1,0 +1,14 @@
+:root {
+    --primaryColor: #00b7ff;
+    --secondaryColor: #6c757d;
+}
+
+#primary-btn {
+    background-color: var(--primaryColor);
+    border: none;
+}
+
+#secondary-btn {
+    background-color: var(--secondaryColor);
+    border: none;
+}
