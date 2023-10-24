@@ -1,0 +1,41 @@
+/* Solution 1st > B > 1 */
+header nav div ul li a {
+    color: red;
+}
+/* Solution 1st  > B > 2 */
+header nav > h2 {
+    color: rgb(139, 239, 51);
+    background-color: brown;
+}
+/* Solution 1st > B > 3 */
+div + p {
+    color: red;
+}
+
+/* Solution 1st > C > 1 */
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+/* Solution 1st > C > 2 */
+a[class ="active"] {
+    color: aqua;
+    text-decoration: underline;
+}
+/* Solution 1st > C > 3 */
+a[target="_self"] {
+    background-color: bisque;
+}
+/* Solution 1st > D > 1 */
+p:last-child::after{
+    content: "...";
+}
+/* Solution 1st > D > 2 */
+li::marker {
+    color: brown;
+}
+/* Solution 1st > D > 3 */
+p:nth-child(even)::first-letter {
+    color: red;
+    font-size: 30px;
+}
