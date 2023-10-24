@@ -1,0 +1,15 @@
+h1::before {
+    content: "जय";
+}
+h1::after {
+    content: "राम ";
+}
+.center {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #F4C430;
+    font-size: 100px;
+}
